@@ -7,6 +7,6 @@
 .employees {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    
+    grid-gap: 24px;
+    margin-right: 24px;
 }

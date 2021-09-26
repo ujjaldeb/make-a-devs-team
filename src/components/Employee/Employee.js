@@ -1,8 +1,12 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import './Employee.css';
 
 const Employee = (props) => {
     const { age, country, department, img, name, role, salary } = props.employee;
+    const faIcon = <FontAwesomeIcon icon={faShoppingCart} />;
+
     return (
         <div className="employee">
             <div>
@@ -18,8 +22,10 @@ const Employee = (props) => {
                 <span><b>Country:</b> {country}</span>
                 <br />
                 <span><b>Salary:</b> {salary}</span>
+                <br />
+                <span><b>Department:</b> {department}</span>
                 <br /><br />
-                <button>Add to cart</button>
+                <button onClick={() => props.handleClickEvent(props.employee)}>{faIcon} Add to cart</button>
             </div>
         </div>
     );

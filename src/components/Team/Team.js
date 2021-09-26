@@ -11,16 +11,25 @@ const Team = () => {
             .then(data => setEmployees(data));
     }, []);
 
+    const handleClickEvent = (employee) => {
+        console.log(employee);
+    }
+
     return (
         <div className="team">
             <div className="employees">
                 {
-                    employees.map(employee => <Employee key={employee.id} employee={employee}></Employee>)
+                    employees.map(employee => <Employee
+                        key={employee.id}
+                        employee={employee}
+                        handleClickEvent={handleClickEvent}
+                    ></Employee>)
                 }
             </div>
 
             <div className="cart-container">
-                cart
+                <h3>Employees Added: 0</h3>
+                <h3>Total Cost: tk 0</h3>
             </div>
         </div>
     );
