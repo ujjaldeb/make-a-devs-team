@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "img": "https://i.postimg.cc/sXCnXTzg/i.gif",
+        "img": "https://i.postimg.cc/mg56HKKb/nyc.jpg",
         "name": "MD Shohel",
         "role": "Architect",
         "department": "Project Management",
@@ -11,7 +11,7 @@
     },
     {
         "id": 2,
-        "img": "https://i.postimg.cc/sXCnXTzg/i.gif",
+        "img": "https://i.postimg.cc/mg56HKKb/nyc.jpg",
         "name": "Akash Chopra",
         "role": "Project Manager",
         "department": "Project Management",
@@ -21,7 +21,7 @@
     },
     {
         "id": 3,
-        "img": "https://i.postimg.cc/sXCnXTzg/i.gif",
+        "img": "https://i.postimg.cc/mg56HKKb/nyc.jpg",
         "name": "Hridoy Shaha",
         "role": "Fullstack Developer",
         "department": "Project Management",
@@ -31,7 +31,7 @@
     },
     {
         "id": 4,
-        "img": "https://i.postimg.cc/sXCnXTzg/i.gif",
+        "img": "https://i.postimg.cc/mg56HKKb/nyc.jpg",
         "name": "Elias Suman",
         "role": "Frontend Developer",
         "department": "Project Management",
@@ -41,7 +41,7 @@
     },
     {
         "id": 5,
-        "img": "https://i.postimg.cc/sXCnXTzg/i.gif",
+        "img": "https://i.postimg.cc/mg56HKKb/nyc.jpg",
         "name": "Sundar Lala",
         "role": "Senior Software Engineer",
         "department": "Project Management",
@@ -51,7 +51,7 @@
     },
     {
         "id": 6,
-        "img": "https://i.postimg.cc/sXCnXTzg/i.gif",
+        "img": "https://i.postimg.cc/mg56HKKb/nyc.jpg",
         "name": "Jalal Uddin",
         "role": "Fullstack Developer",
         "department": "Project Management",
@@ -61,7 +61,7 @@
     },
     {
         "id": 7,
-        "img": "https://i.postimg.cc/sXCnXTzg/i.gif",
+        "img": "https://i.postimg.cc/mg56HKKb/nyc.jpg",
         "name": "Biplob Dey",
         "role": "Web Designer",
         "department": "Project Management",
@@ -71,7 +71,7 @@
     },
     {
         "id": 8,
-        "img": "https://i.postimg.cc/sXCnXTzg/i.gif",
+        "img": "https://i.postimg.cc/mg56HKKb/nyc.jpg",
         "name": "Suman Nandi",
         "role": "UI UX desinger",
         "department": "Project Management",
@@ -81,7 +81,7 @@
     },
     {
         "id": 9,
-        "img": "https://i.postimg.cc/sXCnXTzg/i.gif",
+        "img": "https://i.postimg.cc/mg56HKKb/nyc.jpg",
         "name": "Helal Sheikh",
         "role": "Senior Software Engineer",
         "department": "Project Management",

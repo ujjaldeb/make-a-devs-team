@@ -1,0 +1,13 @@
+.employee {
+    border-radius: 8px;
+    box-shadow: 4px 4px 10px #888;
+}
+
+.employee img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.employee-details {
+    padding: 20px;
+}
