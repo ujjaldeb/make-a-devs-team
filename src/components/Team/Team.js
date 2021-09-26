@@ -21,6 +21,8 @@ const Team = () => {
         if (!cart.includes(employee)) {
             const newCart = [...cart, employee];
             setCart(newCart);
+        } else {
+            alert('You have already added the person in the team!');
         }
     }
 
