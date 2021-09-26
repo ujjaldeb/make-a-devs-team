@@ -1,10 +1,12 @@
-# Getting Started with Create React App
+# Make A Software Development Team
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Project Link: [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## How does this project help?
 
-In the project directory, you can run:
+- Helps you selecting the appropriate skillset for a specific project within defined budget.
+- Your project management becomes easier.
+- An efficient team selection becomes easier.
 
 ### `yarn start`
 

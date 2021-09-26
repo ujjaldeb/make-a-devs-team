@@ -1,7 +1,7 @@
 .team {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    margin: 50px 50px 0px;
+    margin: 50px;
 }
 
 .employees {

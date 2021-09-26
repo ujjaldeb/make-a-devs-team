@@ -3,8 +3,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import './Employee.css';
 
+// the Employee component shows employee details
 const Employee = (props) => {
     const { age, country, department, img, name, role, salary } = props.employee;
+
+    // getting font-awesome icon
     const faIcon = <FontAwesomeIcon icon={faShoppingCart} />;
 
     return (

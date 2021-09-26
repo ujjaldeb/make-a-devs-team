@@ -15,4 +15,5 @@
 
 .employee button {
     padding : 5px 16px;
+    cursor: pointer;
 }
