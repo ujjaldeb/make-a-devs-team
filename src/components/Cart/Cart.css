@@ -7,6 +7,10 @@ table {
     background-color: #fbfbfb;
 }
 
+table caption {
+    margin-bottom: 8px;
+}
+
 table, th, td {
     border: 2px solid lightgray;
     border-collapse: collapse;

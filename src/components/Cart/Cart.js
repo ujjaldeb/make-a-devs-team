@@ -16,6 +16,7 @@ const Cart = (props) => {
             {
                 // showing data in a table, when button click event handler function is invoked
                 cart.length ? <table>
+                    <caption style={{ textAlign: 'left' }}>Employees selected for the team</caption>
                     <thead>
                         <tr>
                             <th>Name</th>
