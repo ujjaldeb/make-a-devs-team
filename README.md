@@ -1,6 +1,6 @@
 # Make A Software Development Team
 
-Live Project Link: [Create React App](https://github.com/facebook/create-react-app).
+Live Project Link: [Create React App](https://make-a-devs-team.netlify.app/).
 
 ## How does this project help?
 
