@@ -15,11 +15,11 @@ const Employee = (props) => {
             <div className="employee-details">
                 <span><b>Name:</b> {name}</span>
                 <br />
-                <span><b>Role:</b> {role}</span>
+                <span><b>Position:</b> {role}</span>
                 <br />
                 <span><b>Age:</b> {age}</span>
                 <br />
-                <span><b>Country:</b> {country}</span>
+                <span><b>From:</b> {country}</span>
                 <br />
                 <span><b>Salary:</b> {salary}</span>
                 <br />

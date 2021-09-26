@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
+import Cart from '../Cart/Cart';
 import Employee from '../Employee/Employee';
 import './Team.css';
 
 const Team = () => {
     const [employees, setEmployees] = useState([]);
+    const [cart, setCart] = useState([]);
 
     useEffect(() => {
         fetch('./Team.JSON')
@@ -12,7 +14,11 @@ const Team = () => {
     }, []);
 
     const handleClickEvent = (employee) => {
-        console.log(employee);
+        if (!cart.includes(employee)) {
+            const newCart = [...cart, employee];
+            setCart(newCart);
+        }
+
     }
 
     return (
@@ -28,8 +34,7 @@ const Team = () => {
             </div>
 
             <div className="cart-container">
-                <h3>Employees Added: 0</h3>
-                <h3>Total Cost: tk 0</h3>
+                <Cart cart={cart}></Cart>
             </div>
         </div>
     );
